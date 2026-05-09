@@ -7,3 +7,7 @@ private_data/*
 
 # Python cache
 __pycache__/
+
+.idea/
+
+.idea/
