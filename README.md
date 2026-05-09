@@ -259,6 +259,7 @@ COS 手动上传参考：
 - `private_data/cos.env`
 
 `.gitignore` 已忽略 `private_data/*`（保留 `.gitkeep` 占位）。
+`.gitignore` 也已忽略 `.idea/`（避免提交本地 IDE 配置）。
 
 发布前建议：
 
@@ -266,7 +267,7 @@ COS 手动上传参考：
 git status --short
 ```
 
-确认没有 `private_data` 的真实数据文件。
+确认没有 `private_data` 的真实数据文件，并确认 `.idea/` 未被跟踪。
 
 ---
 
@@ -525,6 +526,7 @@ scripts/web.sh
 4. 上传后客户端同步有缓存延迟。
 5. 每次覆盖上传后都手动确认对象权限为 **公有读私有写**。
 6. 发布到 GitHub 前，确认 `private_data` 未提交。
+7. 发布到 GitHub 前，确认 `.idea/` 未提交（本地配置不应公开）。
 
 ---
 
