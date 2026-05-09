@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公历生日 ICS 管理</title>
+  <link rel="stylesheet" href="/styles.css?v=tag4">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <h1>公历生日 ICS 管理</h1>
+        <p id="meta">正在加载...</p>
+      </div>
+      <div class="actions">
+        <div class="defaultAlarmGroup">
+          <label class="inlineControl">
+            默认提醒天数
+            <input id="defaultAlarmDays" type="text" placeholder="如 14,7,0">
+          </label>
+          <button id="saveDefaultAlarmBtn" type="button">保存默认提醒</button>
+        </div>
+        <button id="generateBtn" class="primary" type="button">生成 ICS</button>
+      </div>
+    </header>
+
+    <section class="editor">
+      <input id="rowId" type="hidden">
+      <label>
+        名称
+        <input id="name" type="text" placeholder="例如 妈妈">
+      </label>
+      <label>
+        公历生日
+        <input id="date" type="date">
+      </label>
+      <label>
+        准确时间
+        <input id="birthTime" type="time">
+      </label>
+      <label>
+        单独提醒天数
+        <input id="alarmDays" type="text" placeholder="留空用默认；如 14,7,0；-1 不提醒">
+      </label>
+      <label>
+        标签
+        <select id="tag">
+          <option value="生日">生日</option>
+          <option value="重要事件">重要事件</option>
+          <option value="纪念日">纪念日</option>
+        </select>
+      </label>
+      <label class="wide">
+        备注
+        <input id="note" type="text" placeholder="可选，会写入日历备注">
+      </label>
+      <div class="formActions">
+        <button id="saveBtn" class="primary" type="button">保存</button>
+        <button id="resetBtn" type="button">清空</button>
+      </div>
+    </section>
+
+    <section class="list">
+      <div class="listHead">
+        <h2>时间列表</h2>
+        <span id="count">0 条</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>名称</th>
+            <th>
+              <div class="filterHead">
+                <select id="tagFilter" aria-label="标签筛选">
+                  <option value="all">全部</option>
+                  <option value="生日">生日</option>
+                  <option value="重要事件">重要事件</option>
+                  <option value="纪念日">纪念日</option>
+                </select>
+              </div>
+            </th>
+            <th>日期</th>
+            <th>时间</th>
+            <th>农历</th>
+            <th>生肖</th>
+            <th>备注</th>
+            <th>提醒</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <p id="empty" class="empty">还没有数据，先在上面录入一条。</p>
+    </section>
+
+    <section class="list">
+      <div class="listHead">
+        <h2>最近删除</h2>
+        <div class="trashActions">
+          <span id="trashCount">0 条</span>
+          <button id="restoreAllBtn" type="button">全部恢复</button>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>名称</th>
+            <th>标签</th>
+            <th>日期</th>
+            <th>删除时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody id="trashRows"></tbody>
+      </table>
+      <p id="trashEmpty" class="empty">最近没有删除记录。</p>
+    </section>
+
+    <p id="status" class="status">已就绪</p>
+  </main>
+  <script src="/app.js?v=tag4"></script>
+</body>
+</html>
