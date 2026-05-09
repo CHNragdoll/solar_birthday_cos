@@ -1,0 +1,9 @@
+# Private/local data
+private_data/*
+!private_data/.gitkeep
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
