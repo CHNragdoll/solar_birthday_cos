@@ -4,17 +4,14 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/CHNragdoll/solar_birthday_cos?style=flat)
 ![GitHub last commit](https://img.shields.io/github/last-commit/CHNragdoll/solar_birthday_cos)
 ![Version](https://img.shields.io/badge/version-v1.0.0-informational)
+![Repo Size](https://img.shields.io/github/repo-size/CHNragdoll/solar_birthday_cos)
+![Open Issues](https://img.shields.io/github/issues/CHNragdoll/solar_birthday_cos)
 
 > 背景：Apple 生态中的 Calendar 不支持农历日期提醒，故此开发这个项目来补齐农历提醒能力。
 
 ## GitHub 数据卡片
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=CHNragdoll&locale=zh_Hans&date_format=%5BY.%5Dn.j&theme=default&hide_border=true)
-
-![Repo Top Language](https://img.shields.io/github/languages/top/CHNragdoll/solar_birthday_cos)
-![Repo Language Count](https://img.shields.io/github/languages/count/CHNragdoll/solar_birthday_cos)
-![Repo Size](https://img.shields.io/github/repo-size/CHNragdoll/solar_birthday_cos)
-![Open Issues](https://img.shields.io/github/issues/CHNragdoll/solar_birthday_cos)
 
 ---
 
