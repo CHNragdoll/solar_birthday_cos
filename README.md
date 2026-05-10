@@ -1,6 +1,17 @@
 # solar_birthday_cos 项目说明（超详细版）
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/CHNragdoll/solar_birthday_cos?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/CHNragdoll/solar_birthday_cos)
+![Version](https://img.shields.io/badge/version-v1.0.0-informational)
+
 > 背景：Apple 生态中的 Calendar 不支持农历日期提醒，故此开发这个项目来补齐农历提醒能力。
+
+## GitHub 数据卡片
+
+![GitHub Streak](https://streak-stats.demolab.com?user=CHNragdoll&locale=zh_Hans&date_format=%5BY.%5Dn.j)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CHNragdoll&show_icons=true&locale=cn)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CHNragdoll&layout=compact&langs_count=8)
 
 ---
 
@@ -543,3 +554,18 @@ scripts/web.sh
 ## 致谢
 
 - 感谢 [lidaobing/python-lunardate](https://github.com/lidaobing/python-lunardate) 提供农历换算能力支持。
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+| [<img src="https://avatars.githubusercontent.com/u/114509813?v=4" width="100px;" alt="CHNragdoll"/><br /><sub><b>CHNragdoll</b></sub>](https://github.com/CHNragdoll) |
+| :---: |
+| 💻 📖 ⚠️ 🚇 |
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+本项目使用 [all-contributors](https://allcontributors.org/) 规范维护贡献者列表。

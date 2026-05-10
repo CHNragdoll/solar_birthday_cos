@@ -1,0 +1,26 @@
+{
+  "projectName": "solar_birthday_cos",
+  "projectOwner": "CHNragdoll",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "repoName": "CHNragdoll/solar_birthday_cos",
+  "files": [
+    "README.md"
+  ],
+  "contributors": [
+    {
+      "login": "CHNragdoll",
+      "name": "CHNragdoll",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114509813?v=4",
+      "profile": "https://github.com/CHNragdoll",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "test"
+      ]
+    }
+  ],
+  "commit": true,
+  "commitConvention": "none"
+}
