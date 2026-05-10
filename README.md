@@ -560,9 +560,9 @@ scripts/web.sh
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-| [<img src="https://avatars.githubusercontent.com/u/114509813?v=4" width="100px;" alt="CHNragdoll"/><br /><sub><b>CHNragdoll</b></sub>](https://github.com/CHNragdoll) |
+| [<img src="https://avatars.githubusercontent.com/u/114509813?v=4" width="100px;" alt="CHNragdoll"/>](https://github.com/CHNragdoll) |
 | :---: |
-| 💻 📖 ⚠️ 🚇 |
+| [CHNragdoll](https://github.com/CHNragdoll) |
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
