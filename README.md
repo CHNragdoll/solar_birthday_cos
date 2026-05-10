@@ -247,9 +247,10 @@ scripts/web.sh
 - 第几年
 - 非生日标签下，自动备注后仍会追加手填内容（备注、时间）
 
-![自动备注示例（生日）](./assets/2b3d408d-b779-447a-851f-80914be7882b.png)
-
-![自动备注示例（非生日）](./assets/6a5e7732-a39e-4b8e-90d3-2407bc371c0d.png)
+<p>
+  <img src="./assets/2b3d408d-b779-447a-851f-80914be7882b.png" alt="自动备注示例（生日）" width="49%" />
+  <img src="./assets/6a5e7732-a39e-4b8e-90d3-2407bc371c0d.png" alt="自动备注示例（非生日）" width="49%" />
+</p>
 
 ---
 
