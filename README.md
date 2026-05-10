@@ -10,13 +10,10 @@
 ## GitHub 数据卡片
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=CHNragdoll&locale=zh_Hans&date_format=%5BY.%5Dn.j&theme=default&hide_border=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CHNragdoll&show_icons=true&hide_border=true&cache_seconds=86400)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CHNragdoll&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400)
-
-> 如果你网络环境里 `vercel.app` 偶尔加载失败，可改用镜像域名：
->
-> - `https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?...`
-> - `https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?...`
+![Repo Top Language](https://img.shields.io/github/languages/top/CHNragdoll/solar_birthday_cos)
+![Repo Language Count](https://img.shields.io/github/languages/count/CHNragdoll/solar_birthday_cos)
+![Repo Size](https://img.shields.io/github/repo-size/CHNragdoll/solar_birthday_cos)
+![Open Issues](https://img.shields.io/github/issues/CHNragdoll/solar_birthday_cos)
 
 ---
 
